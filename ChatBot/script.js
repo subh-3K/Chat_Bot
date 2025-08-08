@@ -3,7 +3,7 @@ const chatsContainer = document.querySelector(".chats-container");
 const promptForm = document.querySelector(".prompt-form");
 const promptInput = promptForm.querySelector(".prompt-input");
 
-const API_KEY = "AIzaSyCERVo0uGFqICBnnT_BMA75w_WSio11E-Q";
+const API_KEY = "key";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 
 let userMessage = "";
@@ -101,3 +101,4 @@ const handleFormSubmission = (e) => {
 };
 
 promptForm.addEventListener("submit", handleFormSubmission);
+
